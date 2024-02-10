@@ -1,0 +1,64 @@
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.border{
+    border: 2px solid cyan  ;
+}
+
+.border-rad{
+    border-radius: 5px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 0.2rem;
+    background-color: grey;
+}
+
+::-webkit-scrollbar-track{
+    width: 0.2rem;
+    background-color: #1d1d1d;
+}

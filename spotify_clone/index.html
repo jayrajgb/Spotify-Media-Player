@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <div class="container flex bg-black">
+        <div class="left border-rad">
+            <div class="home bg-grey border-rad p-1 m-1">
+                <div class="logohead flex">
+                    <div class="logo p-1">
+                        <img src="./assets/logo.svg" alt="spotify" class="invert">
+                    </div>
+                    <div>
+                        <img src="./assets/cross.svg" alt="close" class="invert p-1 close">
+                    </div>
+                </div>
+
+                <ul>
+                    <li class="flex items-center p-1">
+                        <img src="./assets/home.svg" alt="home" class="invert">
+                        Home
+                    </li>
+                    <li class="flex items-center p-1">
+                        <img src="./assets/search.svg" alt="search" class="invert">
+                        Search
+                    </li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey border-rad p-1 m-1">
+                <div class="heading flex p-1">
+                    <div class="your-library flex">
+                        <img src="./assets/lib.svg" alt="lib" class="invert">
+                        Your Library
+                    </div>
+                    <img src="./assets/plus.svg" alt="add" class="invert">
+                </div>
+                <div class="create-container p-1">
+                    <ul class="songslist">
+                        <!-- <li>
+                            <img src="./assets/music.svg" alt="music" class="invert">
+                            <p class="info">${song.replaceAll("%20"," ")}</p>
+                            <img src="./assets/play.svg" alt="playsong" class="invert play">
+                        </li> -->
+                    </ul>
+                    <div class="create p-1 border-rad">
+                        <h4>Create your first playlist</h4>
+                        <p>It's easy, we'll help you</p>
+                        <button class="white-button m-1">Create playlist</button>
+                    </div>
+                    <div class="create p-1 border-rad">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button class="white-button">Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="footer flex p-1">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right border-rad flex-column items-center">
+            <div class="main border-rad m-1">
+                <div class="nav flex bg-grey">
+                    <div class="arrows flex">
+                        <button class="button hamburger">
+                            <img src="./assets/hamburger.svg" alt="menu" class="invert">
+                        </button>
+                        <div class="flex arrowsbox">
+                            <button class="button">
+                                <img src="./assets/left.svg" alt="prev" class="invert">
+                            </button>
+                            <button class="button">
+                                <img src="./assets/right.svg" alt="next" class="invert">
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class="options flex">
+                        <button class="button"><img class="dragdown invert" src="./assets/down.svg" alt="down"></button>
+                        <button class="down button">Premium</button>
+                        <button class="down button">Support</button>
+                        <button class="down button">Download</button>
+                        <div class="login flex">
+                            <button class="button">Sign up</button>
+                            <button class="button">Log in</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainbox p-1">
+                    <div class="main-head flex m-1">
+                        <h2>Spotify Playlists</h2>
+                        <button class="button">Show all</button>
+                    </div>
+                    <div class="playlists flex p-1">
+                        <!-- <div data-folder="lofibeats" class="card border-rad p-1 bg-grey">
+                            <img src="./assets/lofi.jpg" alt="lofibeats" class="border-rad">
+                            <h5>lofi beats</h5>
+                            <p>chill beats, lofi vibes, new tracks every week...</p>
+                            <span class="playicon">
+                                <img src="./assets/playicon.svg" alt="playicon">
+                            </span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="playbar p-1 border-rad flex-column items-center">
+                <div class="seekbar flex items-center"><div class="line"></div><div class="circle"></div></div>
+                <div class="panel flex items-center justify-center">
+                    <div class="songinfo flex items-center"></div>
+                    <div class="songbuttons p-1 flex">
+                        <img id="prevsong" src="./assets/prev.svg" alt="prevsong" class="invert">
+                        <img id="playsong" src="./assets/play.svg" alt="playsong" class="invert">
+                        <img id="nextsong" src="./assets/next.svg" alt="nextsong" class="invert">
+                    </div>
+                    <div class="songtime flex items-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
