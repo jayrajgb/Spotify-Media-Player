@@ -1,4 +1,4 @@
-#### 🎧 Spotify Style Local Media Player ( HTML • CSS • JS • Fetch API • Dynamic Albums )
+#### 🎧 **Spotify Style Local Media Player** ( HTML • CSS • JS • Fetch API • Dynamic Albums )
 
 ---
 
@@ -8,7 +8,7 @@
 
 ---
 
-#### 🖼️ Snapshot
+#### 🖼️ **Snapshot**
 
 ---
 
@@ -16,7 +16,7 @@
 
 ---
 
-#### ✨ Features
+#### ✨ **Features**
 
 ---
 
@@ -32,11 +32,11 @@
 
 ---
 
-#### 🚀 Quick Start
+#### 🚀 **Quick Start**
 
 ---
 
-##### Clone
+1. #### **Clone**
 
 ```bash
 git clone https://github.com/yourname/spotify-clone.git
