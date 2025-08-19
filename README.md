@@ -1,4 +1,4 @@
-#### 🎧 Spotify Clone (HTML | CSS | JS | Fetch API | Dynamic Albums)
+#### 🎧 Spotify Style Local Media Player ( HTML • CSS • JS • Fetch API • Dynamic Albums )
 
 ---
 
