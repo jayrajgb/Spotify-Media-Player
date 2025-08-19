@@ -1,10 +1,18 @@
-#### 🎵 Spotify Clone (HTML • CSS • JS • Fetch API • Dynamic Albums)
+#### 🎧 Spotify Clone (HTML • CSS • JS • Fetch API • Dynamic Albums)
 
 ---
 
 ##### A front-end Spotify-style music player that runs fully on vanilla **HTML, CSS, and JavaScript**.
 
 ##### Albums & songs are served from a **local file server** (no backend, no database).
+
+---
+
+#### 🖼️ Snapshot
+
+---
+
+![Snapshot](/spotify_clone/assets/project3.png)
 
 ---
 
