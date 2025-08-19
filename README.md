@@ -1,4 +1,4 @@
-#### 🎧 Spotify Clone (HTML • CSS • JS • Fetch API • Dynamic Albums)
+#### 🎧 Spotify Clone (HTML | CSS | JS | Fetch API | Dynamic Albums)
 
 ---
 
