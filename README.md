@@ -32,13 +32,15 @@
 
 ---
 
-#### 🚀 **Quick Start**
+#### ⚡**Quick Setup**
 
 ---
 
 1. #### **Clone**
 
 ```bash
-git clone https://github.com/yourname/spotify-clone.git
-cd spotify-clone
+git clone https://github.com/jayrajgb/Spotify-Media-Player.git
+cd spotify_clone
 ```
+
+2. #### **Run Live Server Locally**
